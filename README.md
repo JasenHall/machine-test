@@ -19,4 +19,15 @@ Steps Taken:
 8. Add new remote
 
     _**git remote add origin https://github.com/JasenHall/machine-test.git**_
-9.
+9. 
+
+
+To build development environment.
+
+1. git clone https://github.com/JasenHall/machine-test
+2. vagrant up
+3. ssh into devbox
+4. cd /vagrant
+5. npm install --no-bin-links
+6. node app.js
+7. Bingo - navigate to http://192.168.33.10:3000 and there you have it.
